@@ -24,15 +24,15 @@ class Contact extends Component {
     let templateParams = {
       from_name: name,
       from_email: email,
-      to_name: 'tanvithote@gmail.com',
+      to_name: 'agnihotri.shubham410@gmail.com',
       subject: subject,
       message_html: message,
      }
      emailjs.send(
       'gmail',
-      'template_UfqwicgO',
+      'template_EYTlJRfG',
        templateParams,
-      'user_9iB8jiYJLmi925laYyGCI'
+      'user_PFchz1UZWxz352GS41Poj'
      )
      this.resetForm()
   }

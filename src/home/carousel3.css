@@ -14,9 +14,9 @@
     background-color: #FEBF86;
 }
 .carousel-row {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* padding-bottom: 20em; */
 }
 card{
     padding: 20px;    
@@ -75,6 +75,7 @@ card{
     font-weight: 500;
     transition: all 0.5s;
     cursor: pointer;
+    margin-bottom: 10px;
     /* margin: 5px; */
   }
   .domain-button-cv span {
@@ -106,6 +107,7 @@ card{
   }
   .domain-button-ev {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid black;
     background-color: rgb(40, 102, 76);
     color: white;
@@ -139,6 +141,7 @@ card{
   }
   .domain-button-rpp {
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid black;
     background-color: rgb(209, 117, 31);
     color: white;

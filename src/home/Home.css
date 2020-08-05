@@ -7,8 +7,8 @@
 .about_heading {
     padding-top: 20px;
     text-align: center;
-    color: white;
-    width: 700px;
+    color: hsl(0, 0%, 100%);
+    width: 90%;
     margin: auto;
     font-weight: 500;
 }
@@ -16,19 +16,19 @@
     padding: 10px;
     /* padding-top: 20px; */
     text-align: center;
-    width: 600px;
+    width: 60%;
     margin: auto;
     font-size: 20px;
     color: white;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     .about_heading {
         width: 500px;
     }
     .home-text{
         width: 500px;
     }
-  }
+  } */
 .tagline{
     font-weight: 400;
     color: white;

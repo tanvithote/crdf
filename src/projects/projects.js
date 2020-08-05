@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './projects.css';
+import {Link} from 'react-router-dom';
 import Header from '../common/header';
 import Footer from '../common/footer';
 
@@ -116,7 +117,7 @@ class Projects extends Component {
                                 <h5 class="card-title"><u>Title</u>: {project.title}</h5>
                                 <p class="domain-name"><u>Domain</u>: {project.domain}</p>
                                 <p class="card-text">{project.description}</p>
-                                <a href={`/project/${project.id}`} class="mt-auto mr-auto btn btn-primary">Details</a>
+                                <Link to={`/project/${project.id}`} class="mt-auto mr-auto btn btn-primary">Details</Link>
                             </div>
                         </div>
                     );

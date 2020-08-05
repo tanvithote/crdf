@@ -37,14 +37,14 @@ class About extends Component {
                         </div>
                         </div>
                         <div class="col-md-6 text-center vertical-center">
-                        <img class="model_image" src={model_image} alt="about_crdf" width="500" height="450"></img>
+                        <img class="img-fluid model_image" src={model_image} alt="about_crdf"></img>
                         </div>
                     </div>
                 </section>
                 <section class="students">
                     <div class="row">
                         <div class="col-md-6 text-center vertical-center">
-                        <img class="home_image" src={international} alt="about_crdf" width="500" height="450"></img>
+                        <img class="img-fluid home_image" src={international} alt="about_crdf" width="500" height="450"></img>
                         </div>
                         <div class="col-md-6 text-center vertical-center">
                         <div class="challenge-text ">
@@ -108,7 +108,7 @@ class About extends Component {
                         </div>                       
                         </div>
                         <div class="col-md-6 text-center vertical-center">
-                        <img class="home_image" src={professors} alt="about_crdf" width="500" height="450"></img>
+                        <img class="img-fluid home_image" src={professors} alt="about_crdf" width="500" height="450"></img>
                         </div>
                     </div>
                 </section>
@@ -116,7 +116,7 @@ class About extends Component {
                 <section class="undergrad">
                     <div class="row">
                         <div class="col-md-6 text-center vertical-center">
-                            <img class="home_image" src={undergrad} alt="about_crdf" width="500" height="450"></img>
+                            <img class="img-fluid home_image" src={undergrad} alt="about_crdf" width="500" height="450"></img>
                         </div>
                         <div class="col-md-6 text-center vertical-center">
                         <div class="challenge-text">
@@ -184,7 +184,7 @@ class About extends Component {
                         </div>                       
                         </div>
                         <div class="col-md-6 text-center vertical-center">
-                        <img class="home_image" src={industry} alt="about_crdf" width="500" height="450"></img>
+                        <img class="img-fluid home_image" src={industry} alt="about_crdf" width="500" height="450"></img>
                         </div>
                     </div>
                 </section>

@@ -6,7 +6,7 @@
     text-align: center;
 }
 .obj-text{
-    width:700px;
+    width:60%;
     margin: auto;
     text-align: center;
     padding-top: 10px;
@@ -14,15 +14,7 @@
     font-weight: 400;
     color: white;
 }
-@media (max-width: 991px) {
-    .obj-text {
-        width: 500px;
-    }
-    .challenge-text{
-        width: 300px;
-        text-align: left;
-    }
-  }
+
 .obj-heading{
     color: white;
 
@@ -43,9 +35,9 @@
   align-items: center;
 }
 .challenge-text{
-    margin-left: 100px;
+    margin-left: auto;
     margin-top: 50px;
-    /* width: 500px; */
+    width: 90%;
 }
 .link-itmes{
     font-size: 20px;
@@ -58,6 +50,7 @@
 }
 .challenge-heading{
     color: rgb(40, 102, 76);
+    text-align: center;
 }
 .undergrad-heading{
     color: rgb(209, 117, 31);
@@ -110,3 +103,7 @@
     color: rgb(109, 108, 108);
     padding-bottom: 20px;
 }
+/* .model-image{
+    max-width: 10%;
+    height:auto;
+} */

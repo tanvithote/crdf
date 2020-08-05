@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './cv1.css';
 import Header from '../common/header';
 import Footer from '../common/footer';
-import vehicle_classification from '../images/Vehicle Classification.jpg';
+import mouse from '../images/simulation.gif';
 import { FaUserGraduate } from "react-icons/fa";
 import { FaIndustry } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
@@ -19,7 +19,7 @@ class Single_Project extends Component{
                             <h2>Maze Solving Micromouse Robot</h2>
                         </div>
                         <div class="image">
-                        <img class="card-img-top project-image" src={vehicle_classification}></img>
+                        <img class="card-img-top project-image" src={mouse}></img>
                         </div>
                         <div class="row">
                             <div class="col-md-6 offset-md-1 info">

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
+import {Link} from 'react-router-dom';
 import Header from '../common/header';
 import home_image from '../images/Picture1.png';
-import Carousel2 from './carousel2';
-// import Carousel1 from './carousel1';
 import Carousel3 from './carousel3';
 import devise from '../images/devise.png';
 import drive from '../images/drivebuddy.png';
@@ -20,15 +19,15 @@ class Home extends Component {
         <div>
           <Header/>
           <section class="about">
-              <div class="row">
+              <div class="row vertical-center">
                 <div class="col-md-8 text-center">
                     <h1 class="about_heading">COLLABORATIVE RESEARCH AND DEVELOPMENT FORUM</h1>
                     <p class="tagline">"Innovation through Collaboration"</p>
                     <p class="home-text">CRDF is a platform for collaboration for industries, professors, international graduates and college students to solve challenging problems in technology and research.</p>
-                    <a href="/about"><button class="about-button"><span>Know more</span></button></a>
+                    <Link to="/about"><button class="about-button"><span>Know more</span></button></Link>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="home_image" src={home_image} alt="about_crdf" width="300" height="300"></img>
+                    <img class="home_image" src={home_image} alt="about_crdf" width="100%"></img>
                 </div>
               </div>
           </section>
@@ -48,7 +47,7 @@ class Home extends Component {
                 <img class="center-block" src={drive} alt="drive buddy logo" height="150" width="300"></img>
                 </a>
             </div>
-            <a href="/contact"><button class="industry-button hover" data-hover="We'd love to work with you!"><div>Become a Partner</div></button></a>
+            <Link to="/contact"><button class="industry-button hover" data-hover="We'd love to work with you!"><div>Become a Partner</div></button></Link>
           </section>
           <section class="university-partners">
           <h1 class="university_heading">UNIVERSITY PARTNERS</h1>
@@ -60,7 +59,7 @@ class Home extends Component {
                 <img class="center-block" src={MIT} alt="MIT" height="200" width="200"></img>
                 </a>
             </div>
-            <a href="/contact"><button class="university-button hover" data-hover="We'd love to work with you!"><div>Become a Partner</div></button></a>
+            <Link to="/contact"><button class="university-button hover" data-hover="We'd love to work with you!"><div>Become a Partner</div></button></Link>
             {/* <button class="university-button hvr-grow">Become a Partner</button> */}
           </section>
           <section class="testimonials">

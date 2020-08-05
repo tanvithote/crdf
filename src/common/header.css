@@ -3,9 +3,12 @@
 }
 
 .nav-link {
-    font-family: Lato,sans-serif;
-    font-weight: 700;
-    color: black;
+    font-family: Lato,sans-serif !important;
+    font-weight: 700 !important;
+    color: black !important;
+    padding-left:30px !important;
+    padding-right:30px !important;
+
 }
 .navbar-nav > li{
     padding-left:30px;
@@ -20,8 +23,8 @@
   .dropdown-toggle:hover {
     color: #015685;
   }
-  .dropdown-list-item > a {
+  .dropdown-list-item {
     /* font-family: Lato,sans-serif; */
-    font-weight: 700;
-    color: black;
+    font-weight: 700 !important;
+    color: black !important;
   }
