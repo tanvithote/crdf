@@ -178,7 +178,7 @@ class Navigation extends Component {
                 this.state.display.map((project) => {
                     return(
                     <div className='container'>
-                        <div class="card h-100">
+                        <div class="card h-100" style={{marginTop:"2em"}}>
                             <img class="card-img-top navi-image" src={project.img} alt="Card cap"></img>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">{project.title}</h5>
