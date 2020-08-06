@@ -5,6 +5,7 @@
     padding-bottom: 30px;
     text-align: center;
 }
+
 .obj-text{
     width:90%;
     margin: auto;
@@ -39,6 +40,10 @@
     margin-right: auto;
     margin-top: 50px;
     width: 90%;
+    
+}
+.unordered{
+    list-style: none;
 }
 .link-itmes{
     font-size: 20px;
@@ -73,7 +78,9 @@
     margin:auto;
 }
 .int-student-items{
-    text-align: left;
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 .int-students-list-heading{
     font-weight: 500;

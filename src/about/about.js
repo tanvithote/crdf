@@ -27,7 +27,7 @@ class About extends Component {
                         <div class="challenge-text ">
                             <h2 class="challenge-heading">The Model</h2>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Industries and investors bring challenging problem statements and resources</li>
                                 <li class="int-student-items">International graduates bring domain expertise and project management</li>
                                 <li class="int-student-items">Professors provide student mentoring and logistics</li>
@@ -54,7 +54,7 @@ class About extends Component {
                             What will they bring?
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Project proposals, ideas and domain selections.</li>
                                 <li class="int-student-items">Resources and guidance to projects.</li>
                                 <li class="int-student-items">Showcasing good projects at international stage.</li>
@@ -65,7 +65,7 @@ class About extends Component {
                             Takeaways:
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Good projects, research paper and patents.
                                 </li>
                                 <li class="int-student-items">Start up and venture ideas.</li>
@@ -87,7 +87,7 @@ class About extends Component {
                             What will they bring?
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Domain expertise and experience.</li>
                                 <li class="int-student-items">Student selection and problem statement definition.</li>
                                 <li class="int-student-items">Active part in project execution.</li>
@@ -98,7 +98,7 @@ class About extends Component {
                             Takeaways:
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Excellent project, research papers and patent portfolio.
                                 </li>
                                 <li class="int-student-items">Research lab setup.</li>
@@ -126,7 +126,7 @@ class About extends Component {
                             What will they bring?
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Prototyping and project implementation.</li>
                                 <li class="int-student-items">Testing and results.</li>
                                 <li class="int-student-items">Presenting the project at different levels.</li>
@@ -137,7 +137,7 @@ class About extends Component {
                             Takeaways:
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Exposure to working with international collaboration.
                                 </li>
                                 <li class="int-student-items">Skills upgrading and learning research methodology.</li>
@@ -160,7 +160,7 @@ class About extends Component {
                             What will they bring?
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Project ideas applicable to the industry</li>
                                 <li class="int-student-items">Key resources</li>
                                 <li class="int-student-items">Funding for projects</li>
@@ -171,7 +171,7 @@ class About extends Component {
                             Takeaways:
                             </p>
                             <p class="link-itmes">
-                            <ul>
+                            <ul class="unordered">
                                 <li class="int-student-items">Intellectual Property (IP) generation
                                 </li>
                                 <li class="int-student-items">Future employees</li>
