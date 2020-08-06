@@ -13,11 +13,7 @@
     justify-content: center;
     background-color: #FEBF86;
 }
-.carousel-row {
-    /* padding-left: 50px;
-    padding-right: 50px; */
-    /* padding-bottom: 20em; */
-}
+
 card{
     padding: 20px;    
 }
@@ -44,6 +40,7 @@ card{
 }
 .ev-heading {
     padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
     color: black	;  
     text-align: center;

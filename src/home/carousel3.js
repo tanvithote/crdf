@@ -22,9 +22,9 @@ class Carousel1 extends React.Component {
         infinite: true,
         speed: 700,
         autoplaySpeed: 5000,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         centerPadding: '50px',
     responsive: [
         {

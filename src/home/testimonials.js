@@ -34,7 +34,7 @@ class Testimonials extends Component {
           <div class="card border-light bg-light text-center" style={{height:"40em"}}>
             <i class="fa fa-quote-left fa-3x card-img-top rounded-circle" aria-hidden="true"><FaQuoteLeft size={50}/></i>
             <div class="card-body blockquote">
-              <p class="card-text">We have started 4 projects with the CRDF team. All the porjects were selected such that they turn out to be import substitution products. Graduate students' involvement helped the products to mature. All the students are dedicated and we want to continue our association with CRDF.</p>
+              <p class="card-text">We have started 4 projects with the CRDF team. All the projects were selected such that they turn out to be import substitution products. Graduate students' involvement helped the products to mature. All the students are dedicated and we want to continue our association with CRDF.</p>
               <footer class="blockquote-footer"><cite title="Source Title">Durvankur Raut</cite></footer>
               <footer><blockquote class="test-position text-muted"><cite title="Source Title">Chief Engineer at Devise Electronics Pvt. Ltd</cite></blockquote></footer>
             </div>

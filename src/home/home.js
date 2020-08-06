@@ -3,6 +3,7 @@ import './Home.css';
 import {Link} from 'react-router-dom';
 import Header from '../common/header';
 import home_image from '../images/Picture1.png';
+import Navigation from '../carousel/navigation';
 import Carousel3 from './carousel3';
 import devise from '../images/devise.png';
 import drive from '../images/drivebuddy.png';
@@ -10,6 +11,7 @@ import VIT from '../images/VIT.png';
 import MIT from '../images/MIT.png';
 import Testimonials from './testimonials';
 import Footer from '../common/footer';
+
 
 
 class Home extends Component {
@@ -27,15 +29,16 @@ class Home extends Component {
                     <Link to="/about"><button class="about-button"><span>Know more</span></button></Link>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="home_image" src={home_image} alt="about_crdf" width="100%"></img>
+                    <img class="head_image" src={home_image} alt="about_crdf" width="100%"></img>
                 </div>
               </div>
           </section>
           <section class="projects">
             <h1 class="projects_heading">PROJECTS</h1>
-            <div class="carousel">
+            <Navigation/>
+            {/* <div class="carousel">
             <Carousel3/>
-            </div>
+            </div> */}
           </section>
           <section class="industry-partners">
             <h1 class="industry_heading">INDUSTRY PARTNERS</h1>
@@ -60,7 +63,6 @@ class Home extends Component {
                 </a>
             </div>
             <Link to="/contact"><button class="university-button hover" data-hover="We'd love to work with you!"><div>Become a Partner</div></button></Link>
-            {/* <button class="university-button hvr-grow">Become a Partner</button> */}
           </section>
           <section class="testimonials">
           <h1 class="testimonials_heading">TESTIMONIALS</h1>

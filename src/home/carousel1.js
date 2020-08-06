@@ -14,8 +14,6 @@ class Carousel1 extends React.Component {
         slidesToScroll: 1,
         autoplay: true,
         centerPadding: '100px',
-    //     nextArrow: <SampleNextArrow />,
-    //   prevArrow: <SamplePrevArrow />
     responsive: [
         {
           breakpoint: 1024,

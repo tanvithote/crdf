@@ -1,0 +1,16 @@
+.navi-image {
+    height: 240px;
+}
+.navi-card {
+    height:"20em";
+    margin-top: 2em;
+}
+@media (min-width: 991px) {
+    .navi-image {
+        height: 300px;
+    }
+    .navi-card {
+        height:"20em" !important;
+        margin-top: 2em;
+    }
+} 
