@@ -2,7 +2,7 @@
     height: 240px;
 }
 .navi-card {
-    height:"20em";
+    height:"40em";
     margin-top: 2em;
 }
 @media (min-width: 991px) {
@@ -10,7 +10,7 @@
         height: 300px;
     }
     .navi-card {
-        height:"20em" !important;
+        height:"30em" !important;
         margin-top: 2em;
     }
 } 

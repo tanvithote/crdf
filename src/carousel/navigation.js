@@ -105,10 +105,6 @@ class Navigation extends Component {
             projects: projects,
             display: display,
             domain: "",
-            viewport: {
-                width: document.documentElement.clientWidth,
-                height: document.documentElement.clientHeight
-            }
         };
     }
     
@@ -124,14 +120,6 @@ class Navigation extends Component {
     }
 
     render(){
-        var style;
-
-        if (this.state.viewport.width > 900) {
-        style = {height: '33em', marginTop: '2em'};
-        }
-        else {
-        style = {width: '40em', marginTop: '2em'};
-        }
 
         var settings = {
             dots: true,
@@ -190,7 +178,7 @@ class Navigation extends Component {
                 this.state.display.map((project) => {
                     return(
                     <div className='container'>
-                        <div class="card" style={style}>
+                        <div class="card h-100">
                             <img class="card-img-top navi-image" src={project.img} alt="Card cap"></img>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">{project.title}</h5>
